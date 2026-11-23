@@ -19,7 +19,7 @@ $active = $active ?? '';
                 </li>
                 <?php if (is_staff()): ?>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-danger text-white <?= $active === 'siswa' ? 'active' : '' ?>" href="<?= $base ?>admin/siswa.php"><i class="bi bi-people-fill"></i> Kelola Siswa</a>
+                        <a class="nav-link <?= $active === 'siswa' ? 'active' : '' ?>" href="<?= $base ?>admin/siswa.php"><i class="bi bi-people-fill"></i> Kelola Siswa</a>
                     </li>
                 <?php endif; ?>
                 <?php if (is_super_admin()): ?>
@@ -29,7 +29,7 @@ $active = $active ?? '';
                 <?php endif; ?>
             </ul>
             <div class="d-flex align-items-center text-white gap-3">
-                <span>Halo, <b><?= e($_SESSION['nama']) ?></b> <span class="badge bg-danger text-uppercase"><?= e(str_replace('_', ' ', $_SESSION['role'])) ?></span></span>
+                <span>Halo, <b><?= e($_SESSION['nama']) ?></b> <span class="badge bg-primary text-uppercase"><?= e(str_replace('_', ' ', $_SESSION['role'])) ?></span></span>
                 <a href="<?= $base ?>auth/logout.php" class="btn btn-outline-danger btn-sm"><i class="bi bi-box-arrow-right"></i> Logout</a>
             </div>
         </div>
