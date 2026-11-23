@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="password" name="password" class="form-control" placeholder="Masukkan password" required>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold mb-3">Login <i class="bi bi-arrow-right-short"></i></button>
+        <button type="submit" class="btn btn-danger w-100 py-2 fw-semibold mb-3">Login <i class="bi bi-arrow-right-short"></i></button>
     </form>
 
     <div class="text-center pt-2 border-top">
