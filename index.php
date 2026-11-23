@@ -56,8 +56,8 @@ $active = 'galeri';
                         <a href="index.php" class="btn btn-outline-secondary" title="Reset"><i class="bi bi-x-lg"></i></a>
                     <?php endif; ?>
                 </div>
-                <button type="submit" class="btn btn-primary">Cari</button>
-                <a href="project_tambah.php" class="btn btn-success rounded-pill px-4 text-nowrap"><i class="bi bi-plus-lg me-1"></i> Tambah Project</a>
+                <button type="submit" class="btn btn-danger">Cari</button>
+                <a href="project_tambah.php" class="btn btn-danger rounded-pill px-4 text-nowrap"><i class="bi bi-plus-lg me-1"></i> Tambah Project</a>
             </form>
         </div>
     </div>
